@@ -1,0 +1,16 @@
+{
+  "domain": "ixmanager",
+  "name": "iXmanager",
+  "version": "0.1.0",
+  "config_flow": true,
+  "documentation": "https://github.com/Nico82x/home-assistant-ixmanager",
+  "codeowners": [
+    "@Nico82x"
+  ],
+  "requirements": [
+    "pycognito==2024.5.1"
+  ],
+  "iot_class": "cloud_polling",
+  "integration_type": "hub",
+  "issue_tracker": "https://github.com/Nico82x/home-assistant-ixmanager/issues"
+}
