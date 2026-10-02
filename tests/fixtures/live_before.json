@@ -1,0 +1,74 @@
+{
+  "id": "test-pool-1",
+  "name": "Synthetic test pool",
+  "connectionStatus": "ONLINE",
+  "thingType": {
+    "name": "synthetic",
+    "businessName": "Synthetic controller"
+  },
+  "liveDeviceData": {
+    "operatingValues": [
+      {
+        "value": "24.0",
+        "desiredValue": "26"
+      },
+      {
+        "value": "610",
+        "desiredValue": "680"
+      },
+      {
+        "value": "7.1",
+        "desiredValue": "7.0"
+      },
+      {
+        "value": "10",
+        "desiredValue": null
+      },
+      {
+        "value": "12",
+        "desiredValue": null
+      },
+      {
+        "value": null,
+        "desiredValue": null
+      },
+      {
+        "value": "75",
+        "desiredValue": null
+      },
+      {
+        "value": "50",
+        "desiredValue": null
+      },
+      {
+        "value": "STANDBY",
+        "desiredValue": null
+      },
+      {
+        "value": "AUTO",
+        "desiredValue": "AUTO"
+      },
+      {
+        "value": "30",
+        "desiredValue": null
+      },
+      {
+        "value": "SILENT",
+        "desiredValue": "SILENT"
+      },
+      {
+        "value": "25",
+        "desiredValue": null
+      },
+      {
+        "value": "ethernet",
+        "desiredValue": null
+      },
+      {
+        "value": "22",
+        "desiredValue": null
+      }
+    ],
+    "controls": []
+  }
+}

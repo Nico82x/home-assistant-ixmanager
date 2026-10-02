@@ -1,0 +1,213 @@
+{
+  "id": "test-pool-1",
+  "name": "Synthetic test pool",
+  "connectionStatus": "ONLINE",
+  "thingType": {
+    "name": "synthetic",
+    "businessName": "Synthetic controller"
+  },
+  "liveDeviceData": {
+    "operatingValues": [
+      {
+        "name": "poolTempWithSettings",
+        "label": "Wassertemperatur",
+        "type": "NUMBER",
+        "value": "24.0",
+        "desiredValue": "26.0",
+        "options": {
+          "unit": "TEMP_CELSIUS",
+          "digits": 1
+        },
+        "settable": true,
+        "showDesired": true
+      },
+      {
+        "name": "targetORP",
+        "label": "Redox",
+        "type": "NUMBER",
+        "value": "610",
+        "desiredValue": "680",
+        "options": {},
+        "settable": true,
+        "showDesired": true
+      },
+      {
+        "name": "targetpH",
+        "label": "pH",
+        "type": "NUMBER",
+        "value": "7.1",
+        "desiredValue": "7.0",
+        "options": {
+          "digits": 2
+        },
+        "settable": true,
+        "showDesired": true
+      },
+      {
+        "name": "remainingAgentA",
+        "label": "Vorrat A",
+        "type": "NUMBER",
+        "value": "10",
+        "desiredValue": null,
+        "options": {
+          "unit": "LITER"
+        },
+        "settable": false,
+        "showDesired": false
+      },
+      {
+        "name": "remainingAgentB",
+        "label": "Vorrat B",
+        "type": "NUMBER",
+        "value": "12",
+        "desiredValue": null,
+        "options": {
+          "unit": "LITER"
+        },
+        "settable": false,
+        "showDesired": false
+      },
+      {
+        "name": "outsideTemperature",
+        "label": "Außentemperatur",
+        "type": "NUMBER",
+        "value": null,
+        "desiredValue": null,
+        "options": {
+          "unit": "TEMP_CELSIUS"
+        },
+        "settable": false,
+        "showDesired": false
+      },
+      {
+        "name": "signal",
+        "label": "Signal",
+        "type": "NUMBER",
+        "value": "75",
+        "desiredValue": null,
+        "options": {
+          "unit": "PERCENT"
+        },
+        "settable": false,
+        "showDesired": false
+      },
+      {
+        "name": "heaterStatePercent",
+        "label": "Heizleistung",
+        "type": "NUMBER",
+        "value": "50",
+        "desiredValue": null,
+        "options": {
+          "unit": "PERCENT"
+        },
+        "settable": false,
+        "showDesired": false
+      },
+      {
+        "name": "heaterMode",
+        "label": "Heizstatus",
+        "type": "ENUM",
+        "value": "STANDBY",
+        "desiredValue": null,
+        "options": {
+          "values": [
+            {
+              "value": "STANDBY",
+              "label": "Standby"
+            }
+          ]
+        },
+        "settable": false,
+        "showDesired": false
+      },
+      {
+        "name": "targetHeaterMode",
+        "label": "Heizmodus",
+        "type": "ENUM",
+        "value": "AUTO",
+        "desiredValue": "AUTO",
+        "options": {
+          "values": [
+            {
+              "value": "AUTO",
+              "label": "Automatik"
+            }
+          ]
+        },
+        "settable": true,
+        "showDesired": true
+      },
+      {
+        "name": "startCoolingTemp",
+        "label": "Kühltemperatur",
+        "type": "NUMBER",
+        "value": "30",
+        "desiredValue": null,
+        "options": {
+          "unit": "TEMP_CELSIUS"
+        },
+        "settable": false,
+        "showDesired": false
+      },
+      {
+        "name": "heaterMaxPowerLevel",
+        "label": "Leistungsmodus",
+        "type": "ENUM",
+        "value": "SILENT",
+        "desiredValue": "SILENT",
+        "options": {
+          "values": [
+            {
+              "value": "SILENT",
+              "label": "Leise"
+            }
+          ]
+        },
+        "settable": true,
+        "showDesired": true
+      },
+      {
+        "name": "returnWaterTemperature",
+        "label": "Rücklauf",
+        "type": "NUMBER",
+        "value": "25",
+        "desiredValue": null,
+        "options": {
+          "unit": "TEMP_CELSIUS"
+        },
+        "settable": false,
+        "showDesired": false
+      },
+      {
+        "name": "connectionType",
+        "label": "Verbindung",
+        "type": "ENUM",
+        "value": "ethernet",
+        "desiredValue": null,
+        "options": {
+          "values": [
+            {
+              "value": "ethernet",
+              "label": "LAN"
+            }
+          ]
+        },
+        "settable": false,
+        "showDesired": false
+      },
+      {
+        "name": "ambientTemperature",
+        "label": "Raumtemperatur",
+        "type": "NUMBER",
+        "value": "22",
+        "desiredValue": null,
+        "options": {
+          "unit": "TEMP_CELSIUS"
+        },
+        "settable": false,
+        "showDesired": false
+      }
+    ],
+    "controls": []
+  }
+}
