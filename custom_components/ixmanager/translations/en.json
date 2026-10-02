@@ -1,0 +1,33 @@
+{
+  "title": "iXmanager",
+  "config": {
+    "step": {
+      "user": {
+        "title": "iXmanager",
+        "description": "Sign in with your iXfield/iXmanager account. v0.1 only reads pool data. Complete MFA and password changes in iXfield.",
+        "data": {
+          "username": "Username / email",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "iXmanager",
+        "description": "Sign in with your iXfield/iXmanager account. v0.1 only reads pool data. Complete MFA and password changes in iXfield.",
+        "data": {
+          "username": "Username / email",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid credentials or additional authentication challenge required.",
+      "cannot_connect": "Cannot connect to cloud API or unexpected API response.",
+      "no_devices": "No accessible pool devices found."
+    },
+    "abort": {
+      "already_configured": "Account already configured.",
+      "reauth_successful": "Credentials updated.",
+      "wrong_account": "Use the same account as the original setup."
+    }
+  }
+}

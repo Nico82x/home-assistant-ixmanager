@@ -1,0 +1,33 @@
+{
+  "title": "iXmanager",
+  "config": {
+    "step": {
+      "user": {
+        "title": "iXmanager",
+        "description": "Mit deinem iXfield/iXmanager-Konto anmelden. v0.1 liest ausschließlich Pooldaten. MFA und Passwortwechsel bitte in iXfield abschließen.",
+        "data": {
+          "username": "Benutzername / E-Mail",
+          "password": "Passwort"
+        }
+      },
+      "reauth_confirm": {
+        "title": "iXmanager",
+        "description": "Mit deinem iXfield/iXmanager-Konto anmelden. v0.1 liest ausschließlich Pooldaten. MFA und Passwortwechsel bitte in iXfield abschließen.",
+        "data": {
+          "username": "Benutzername / E-Mail",
+          "password": "Passwort"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Anmeldung fehlgeschlagen oder zusätzliche Login-Bestätigung erforderlich.",
+      "cannot_connect": "Cloud-API nicht erreichbar oder unerwartete API-Antwort.",
+      "no_devices": "Keine zugänglichen Poolgeräte gefunden."
+    },
+    "abort": {
+      "already_configured": "Dieses Konto ist bereits eingerichtet.",
+      "reauth_successful": "Anmeldedaten aktualisiert.",
+      "wrong_account": "Bitte dasselbe Konto wie bei der Einrichtung verwenden."
+    }
+  }
+}
