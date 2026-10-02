@@ -1,0 +1,4 @@
+homeassistant==2026.9.4
+pytest-homeassistant-custom-component==0.13.367
+pycognito==2024.5.1
+graphql-core==3.3.0
